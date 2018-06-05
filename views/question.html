@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Question</title>
+  <style type="text/css">
+  .answer {
+    margin: 0 35% 0 35% ;
+    width: 36%;
+    padding: 5px;
+    padding-right: 20px;
+    border-radius:20px;
+    border: solid 1px #d7dee8;
+    float: left;
+    }
+  </style>
+ </head>
+ <body>
+   <div class="answer" style=" padding: 1% 0% 1% 2%">
+   <form method="POST" action="/addQuestion"  >
+   Your question?:<br>
+   <input type="text" name="newQuestion" size="50" style="height: 70px"  >
+   <br>
+   <input value="Ask!" type="submit" name ="addQuestion"></form>
+   </form>
+   </div>
+ </body>
+</html>
